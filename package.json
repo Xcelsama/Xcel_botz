@@ -3,11 +3,11 @@
   "version": "2.0.0",
   "description": "A BOT",
   "main": "index.js",
-"scripts": {
+  "scripts": {
     "restart": "pm2 restart BOT-X",
     "start": "pm2 start index.js --deep-monitoring --attach --name BOT-X",
     "stop": "pm2 stop BOT-X"
- },
+  },
   "author": "",
   "license": "proprietary license",
   "dependencies": {
@@ -60,10 +60,11 @@
     "youtubei.js": "13.3.0",
     "ytdl-core": "^4.11.5",
     "ytdl-secktor": "^0.0.1-development"
-      },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Excelsama/BOT-X.git"
+  },
   "bugs": {
     "url": "https://github.com/Excelsama/BOT-X/issues"
   },
