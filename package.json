@@ -40,7 +40,7 @@
     "jimp": "1.6.0",
     "jsdom": "26.0.0",
     "koyeb-api-client": "^0.0.1",
-    "link-preview-js": "^3.0.14",,
+    "link-preview-js": "^3.0.14",
     "moment-timezone": "^0.5.48",
     "mongoose": "8.13.2",
     "mumaker": "^2.0.0",
