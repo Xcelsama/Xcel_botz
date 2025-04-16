@@ -12,14 +12,25 @@
   "license": "proprietary license",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
+<<<<<<< HEAD
     "@hapi/boom": "10.0.1",
     "baileys": "6.7.16",
+=======
+    "@hapi/boom": "^9.1.4",
+>>>>>>> ab23b7eb (Updated package.json)
     "acrcloud": "^1.4.0",
     "anime-character-random": "^1.0.14",
     "aptoide-scraper": "^1.0.1",
+<<<<<<< HEAD
     "async-g-i-s": "1.5.5",
     "axios": "1.8.4",
     "canvas": "3.1.0",
+=======
+    "async-g-i-s": "^1.4.0",
+    "axios": "^0.24.0",
+    "baileys": "6.7.16",
+    "canvas": "^2.11.2",
+>>>>>>> ab23b7eb (Updated package.json)
     "cheerio": "^1.0.0-rc.10",
     "child_process": "^1.0.2",
     "crypto-js": "4.2.0",
@@ -33,7 +44,10 @@
     "form-data": "^4.0.1",
     "fs-extra": "^10.1.0",
     "google-it": "^1.6.4",
+<<<<<<< HEAD
     "sequelize": "6.37.7",
+=======
+>>>>>>> ab23b7eb (Updated package.json)
     "google-tts-api": "^2.0.2",
     "heroku-client": "^3.1.0",
     "human-readable": "^0.2.1",
@@ -49,11 +63,20 @@
     "node-webpmux": "^3.2.1",
     "pastedeno": "0.6.2",
     "path": "^0.12.7",
+<<<<<<< HEAD
     "pg": "^8.14.1",
     "pm2": "6.0.5",
     "qrcode": "1.5.4",
     "secktor-pack": "0.0.1-development",
     "simple-git": "^3.27.0",
+=======
+    "pg": "^8.11.3",
+    "pm2": "^5.2.0",
+    "qrcode": "latest",
+    "secktor-pack": "latest",
+    "sequelize": "^6.23.0",
+    "simple-git": "^3.15.1",
+>>>>>>> ab23b7eb (Updated package.json)
     "translatte": "^3.0.1",
     "util": "^0.12.5",
     "wa-sticker-formatter": "^4.4.4",
