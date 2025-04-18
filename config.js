@@ -12,7 +12,7 @@ global.location = "Rivers,Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Xcelsama:Xcel@xcelsama.qpklf.mongodb.net/?retryWrites=true&w=majority&appName=Xcelsama";
 global.allowJids = process.env.ALLOW_JID || "true";
 global.blockJids = process.env.BLOCK_JID || "null";
-global.DATABASE_URL = process.env.DATABASE_URL || "";
+global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://xcelsama:excelsama@xcelsama.ol54706.mongodb.net/?retryWrites=true&w=majority&appName=xcelsama";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Excelsama/BOT-X";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m";
