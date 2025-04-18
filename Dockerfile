@@ -1,4 +1,4 @@
-FROM node:21-buster  
+FROM node:lts-buster  
 
 # Install system dependencies for canvas  
 RUN apt-get update && apt-get install -y \  
