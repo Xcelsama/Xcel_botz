@@ -14,7 +14,6 @@ RUN npm install -g npm@latest
 RUN npm cache clean --force
 RUN npm install -g qrcode-terminal pm2
 
-COPY . .
 
 EXPOSE 3000
 
