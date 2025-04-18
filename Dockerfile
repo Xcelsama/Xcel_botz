@@ -1,5 +1,5 @@
-FROM node:18-buster  
-  
+FROM node:21-buster  
+
 # Install system dependencies for canvas  
 RUN apt-get update && apt-get install -y \  
     build-essential \  
@@ -9,14 +9,14 @@ RUN apt-get update && apt-get install -y \
     libgif-dev \  
     librsvg2-dev \  
     && rm -rf /var/lib/apt/lists/*  
-  
+
 # Downgrade npm to avoid known bugs  
-RUN npm install -g npm@8  
-  
+RUN npm install -g npm@latest
+
 # Clear corrupted cache and install deps  
 RUN rm -rf /root/.npm && npm cache clean --force  
 RUN npm install -g qrcode-terminal pm2  
-  
+
 COPY . .  
 EXPOSE 3000    
-CMD ["npm", "start"]  
+CMD ["npm", "start"]
