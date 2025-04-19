@@ -43,7 +43,7 @@ global.scan = "https://nikkapair.onrender.com/pair";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "NIKKA_41_73_92" // session id here
+  "" // session id here
 module.exports = {
   menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || "*",
